@@ -29,5 +29,19 @@
     color: white;
     margin-top: 5px;
     padding: 10 px 20px;
+    
+}
 
+header{
+    background-color: rgb(103, 44, 151);
+    text-align: center;
+}
+
+h1{
+    color: white;
+    
+}
+
+body{
+    background-color: rgb(181, 141, 219);
 }

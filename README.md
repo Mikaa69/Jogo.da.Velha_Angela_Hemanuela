@@ -1,7 +1,15 @@
 # Jogo da Velha
-jogo para dois jogadores, onde cada um escolhe entre X, sendo o primeiro a jogar, ou O, sendo o segundo:
+jogo para dois jogadores, onde se joga com X ou O:
 
-e vão marcando no tabuleiro, alternadamente até obter uma sequencia 3 do mesmo caracter na horizontal, vertical ou diagonal.
+| X    | O | 
+| ------------------- | -------------- |
+| ![primeira jogada x](/img/x.PNG)| ![segunda jogada o](/img/o.PNG)|
+
+e vão marcando no tabuleiro, alternadamente até obter uma sequencia 3 do mesmo caracter na horizontal, vertical ou diagonal. A sequencia ganhadora é destacada:
+
+| horizontal     | vertical | diagonal |
+| ------------------- | -------------- | -------------- |
+| ![booyah horizontal](/img/horizontal.PNG)| ![booyah vertical](/img/vertical.PNG)|  ![booyah diagonal](/img/diagonal.PNG)|
 
 #### Tutorial do jogo: Canal [Código Fonte TV](https://www.youtube.com/watch?v=M258B1b_pMs)
 
@@ -14,7 +22,8 @@ e vão marcando no tabuleiro, alternadamente até obter uma sequencia 3 do mesmo
 ### Alterações feitas:
 
 - alteração das cores;
-- implementação do botão restart
-- uso da mensagem no console 'perfeito' para ver se estava funcionando
-- implementação de marcador da sequencia ganhadora
-- alteração da variavel tic_tack_toe para jogodavelha
+- implementação do botão restart;
+- uso da mensagem no console 'perfeito' para ver se estava funcionando;
+- implementação de marcador da sequencia ganhadora;
+- alteração da variavel tic_tack_toe para jogodavelha;
+- adição de header com o nome do jogo;
