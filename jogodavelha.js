@@ -56,10 +56,6 @@ const jogodavelha = {
         console.log("Game Over!");
     },
 
-    is_game_over: function(){
-        return !this.board.includes('');
-    },
-
     stylize_winner_sequence(winner_sequence){
         winner_sequence.forEach((position) => {
             this

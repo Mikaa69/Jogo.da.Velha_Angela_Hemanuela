@@ -23,9 +23,6 @@
 .game > div.winner{
     background: rgb(202, 123, 233);
 }
-.game > div.winner>span{
-    color: blue;
-}
 .btn{
     border: 5px solid rgb(103, 44, 151) ;
     background-color:rgb(103, 44, 151) ;
