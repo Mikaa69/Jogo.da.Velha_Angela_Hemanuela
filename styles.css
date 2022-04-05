@@ -1,0 +1,36 @@
+.game{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgb(67, 19, 107);
+    color: white;
+    border: 6px solid rgb(103, 44, 151);
+    border-radius: 10px;
+    display: grid;
+    grid-template: repeat(3,1fr) / repeat(3,1fr);
+}
+
+.game > div{
+    border: 6px solid rgb(103, 44, 151);
+    border-radius: 2px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game > div.winner{
+    background: rgb(202, 123, 233);
+}
+.game > div.winner>span{
+    color: blue;
+}
+.btn{
+    border: 5px solid rgb(103, 44, 151) ;
+    background-color:rgb(103, 44, 151) ;
+    color: white;
+    margin-top: 5px;
+    padding: 10 px 20px;
+
+}
